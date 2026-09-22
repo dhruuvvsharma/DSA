@@ -12,7 +12,7 @@ class Solution:
             while total_rn >= target:
                 subarr_len = (high - low)+ 1    ##important 
                 subarr_final_len = min(subarr_len,subarr_final_len)
-    ##FIRE
+##FIRE
                 total_rn -= nums[low]
                 low +=1 
             
